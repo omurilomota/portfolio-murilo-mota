@@ -728,6 +728,7 @@ a {
 
 .footer-bottom {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 16px;
   margin-top: 48px;
@@ -735,6 +736,19 @@ a {
   border-top: 1px solid rgba(243, 238, 228, 0.18);
   font-size: 11px;
   color: rgba(243, 238, 228, 0.5);
+}
+
+.footer-credit {
+  flex-basis: 100%;
+  padding-top: 4px;
+  color: rgba(243, 238, 228, 0.32);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.footer-credit:hover {
+  color: rgba(243, 238, 228, 0.7);
 }
 
 /* Responsivo */
