@@ -264,6 +264,15 @@ export default function App() {
         <div className="container footer-bottom">
           <span>© 2026 Murilo Mota</span>
           <span>React 19 · Vite 7 · Tailwind CSS 4</span>
+          <a
+            href="https://wa.me/5518998133524"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Falar com Murilo Mota no WhatsApp"
+            className="footer-credit"
+          >
+            Desenvolvido por Murilo Mota · 55 (18) 99813-3524
+          </a>
         </div>
       </footer>
     </div>
